@@ -26,7 +26,7 @@ function calFahrenheit() {
     const textArea = document.getElementById('text2');
     const textPerimeter = document.getElementById('text2a');
     textArea.innerHTML = `The area of the circle with radius ${num2} equals to ` + area;
-    textPerimeter.innerHTML = `The area of the circle with radius ${num2} equals to ` + perimeter ;
+    textPerimeter.innerHTML = `The perimeter of the circle with radius ${num2} equals to ` + perimeter ;
   
   }
   circleValues()
